@@ -195,10 +195,10 @@ const ContactPage = () => {
             <div className="info-card">
               <h3>Follow Us</h3>
               <div className="social-icons">
-                <a href="#" className="social-icon"><Facebook /></a>
-                <a href="#" className="social-icon"><Instagram /></a>
-                <a href="#" className="social-icon"><Twitter /></a>
-                <a href="#" className="social-icon"><Linkedin /></a>
+                <a href="https://www.instagram.com/mr_yogeshharal7875?igsh=MXNkOXJmM2c2YTZmMg==" className="social-icon"><Facebook /></a>
+                <a href="https://www.instagram.com/mr_yogeshharal7875?igsh=MXNkOXJmM2c2YTZmMg==" className="social-icon"><Instagram /></a>
+                <a href="https://www.instagram.com/mr_yogeshharal7875?igsh=MXNkOXJmM2c2YTZmMg==" className="social-icon"><Twitter /></a>
+                <a href="https://www.instagram.com/mr_yogeshharal7875?igsh=MXNkOXJmM2c2YTZmMg==" className="social-icon"><Linkedin /></a>
               </div>
             </div>
           </div>

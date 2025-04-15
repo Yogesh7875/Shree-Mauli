@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import {  useEffect } from 'react';
 import { FaBriefcase, FaUsers, FaUserPlus, FaMap } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -54,7 +54,7 @@ const Places = () => {
 
         <div style={styles.space}></div>
         
-        <a href="#" style={styles.buttonLink}>
+        <a href="https://www.instagram.com/mr_yogeshharal7875?igsh=MXNkOXJmM2c2YTZmMg==" style={styles.buttonLink}>
           <button style={styles.readMoreButton}>
             <span style={styles.buttonText}>Read More</span>
           </button>
