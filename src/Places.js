@@ -54,7 +54,7 @@ const Places = () => {
 
         <div style={styles.space}></div>
         
-        <a href="https://samtatoursandtravels.com/tour/" style={styles.buttonLink}>
+        <a href="#" style={styles.buttonLink}>
           <button style={styles.readMoreButton}>
             <span style={styles.buttonText}>Read More</span>
           </button>

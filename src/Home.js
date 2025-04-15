@@ -4,11 +4,8 @@ import {
   FiArrowLeft, 
   FiArrowRight, 
   FiClock, 
-  FiMapPin, 
   FiDollarSign,
-  FiNavigation2, // Airplane alternative
-  FiTruck,       // Car alternative
-  FiGift
+
 } from "react-icons/fi";
 import busImage from "./img/bus.jpg";
 import greenBusImage from "./img/greenBus.jpg";
@@ -108,52 +105,6 @@ const Home = () => {
               <button style={styles.packageButton}>View Details</button>
             </div>
           ))}
-        </div>
-      </div>
-
-      {/* Outstation Tours Section */}
-      <div style={styles.outstationSection}>
-        <h2 style={styles.sectionTitle}>Outstation Tours</h2>
-        <div style={styles.destinationGrid}>
-          <div style={styles.destinationColumn}>
-            {['MANABALE SHWAR', 'LONAVALA', 'GOA'].map((dest, index) => (
-              <div key={index} style={styles.destinationCard}>
-                <FiMapPin style={styles.destinationIcon} />
-                <h3 style={styles.destinationTitle}>{dest}</h3>
-                <div style={styles.destinationInfo}>
-                  <span><FiClock /> 12hrs</span>
-                  <span><FiDollarSign /> ₹1999</span>
-                </div>
-                <button style={styles.destinationButton}>
-                  Book Now <FiArrowRight />
-                </button>
-              </div>
-            ))}
-          </div>
-
-          <div style={styles.destinationColumn}>
-            {['AIRPORT TRANSFER', 'OUTSTATION', 'MUMBAI'].map((service, index) => (
-              <div key={index} style={styles.serviceCard}>
-                <div style={styles.serviceHeader}>
-                  {index % 2 === 0 ? <FiNavigation2 /> : <FiTruck />}
-                  <h3 style={styles.serviceTitle}>{service}</h3>
-                </div>
-                <button style={styles.serviceButton}>
-                  View Rates <FiArrowRight />
-                </button>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div style={styles.specialOffer}>
-          <div style={styles.offerContent}>
-            <h2 style={styles.offerTitle}>Special Offer</h2>
-            <p style={styles.offerText}>Free Roar Juice on all bookings!</p>
-            <button style={styles.offerButton}>
-              Claim Now <FiGift />
-            </button>
-          </div>
         </div>
       </div>
       <Places/>
